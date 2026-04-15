@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teknik Sepeda Motor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .hero-section {
+            background: linear-gradient(rgba(161, 22, 36, 0.8), rgba(224, 95, 108, 0.8)), 
+                        url('https://images.pexels.com/photos/11890966/pexels-photo-11890966.jpeg');
+            background-size: cover; background-position: center; padding: 120px 0; color: white;
+        }
+        .card { border: none; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        .icon-box { width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; border-radius: 10px; }
+        .bg-soft-red { background-color: #ffebee; color: #dc3545; }
+        .bg-soft-dark { background-color: #e9ecef; color: #212529; }
+        footer { background-color: #212529; color: #adb5bd; padding: 30px 0; margin-top: 50px; }
+    </style>
+</head>
+<body class="bg-light">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#"><img src="https://th.bing.com/th/id/R.8674e7aa560ca931282681a754667cbc?rik=STAr3d4EI5WmYA&riu=http%3a%2f%2fsmkn1tengaran.sch.id%2fwp-content%2fuploads%2f2019%2f08%2fLogo-RPL.png&ehk=wuMtw%2buBe%2bIUzr12nvJcnbyKZhRz17KQrwtGF8VRrJw%3d&risl=&pid=ImgRaw&r=0" alt="" class="rounded-circle" width="50" height="50" style="margin-right: 10px;" class="d-inline-block align-text-center me-2">SMK DIGITAL</a>
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#mengapa-kami"
+                        >Beranda</a
+                    >
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#visimisi">Visi Misi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tabel">Data Siswa</a>
+                </li>
+                 <div class="dropdown">
+                <a class="btn btn-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   Jurusan
+                </a>
+
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="pplg.html">PPLG</a></li>
+                    <li><a class="dropdown-item" href="tjkt.html">TJKT</a></li>
+                    <li><a class="dropdown-item" href="kuliner.html">Kuliner</a></li>
+                    <li><a class="dropdown-item" href="busana.html">Busana</a></li>
+                    <li><a class="dropdown-item" href="otomotif.html">Otomotif</a></li><hr>
+                   <li><a class="dropdown-item" href="#jurusan">Lihat Semua</a></li>
+                </ul>
+                </div>
+                </ul>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="hero-section text-center">
+    <div class="container mt-4">
+        <h1 class="display-4 fw-bold">TEKNIK OTOMOTIF</h1>
+        <p class="lead">Menguasai teknologi otomotif roda dua dari sistem konvensional hingga injeksi dan motor listrik.</p>
+    </div>
+</header>
+
+<main class="container my-5">
+    <div class="row g-4">
+        <div class="col-lg-8">
+            <div class="card p-4 h-100">
+                <h2 class="fw-bold mb-4">Ahli Mekanik Masa Depan</h2>
+                <p class="text-secondary mb-5">Siswa difokuskan pada pemeliharaan dan perbaikan mesin, sistem pemindah tenaga, sasis, dan kelistrikan sepeda motor sesuai dengan standar kerja bengkel resmi (Authorized Workshop).</p>
+                
+                <div class="row mb-5">
+                    <div class="col-md-6 mb-3">
+                        <div class="d-flex align-items-center">
+                            <div class="icon-box bg-soft-red me-3"><i class="bi bi-gear-wide-connected fs-4"></i></div>
+                            <div><h6 class="fw-bold mb-0">Tune-Up Expert</h6><small class="text-muted">Optimasi performa mesin.</small></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="d-flex align-items-center">
+                            <div class="icon-box bg-soft-dark me-3"><i class="bi bi-lightning-charge fs-4"></i></div>
+                            <div><h6 class="fw-bold mb-0">EFI Diagnostic</h6><small class="text-muted">Sistem injeksi & kelistrikan.</small></div>
+                        </div>
+                    </div>
+                </div>
+
+                <h5 class="fw-bold mb-3">Fasilitas Unggulan</h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0">Bengkel Standar AHASS <span class="badge bg-danger rounded-pill">Teaching Factory</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0">Alat Scan Diagnosa Digital <span class="badge bg-dark rounded-pill">Terbaru</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0">Unit Motor Injeksi & Listrik <span class="badge bg-secondary rounded-pill">Lengkap</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card mb-4 overflow-hidden">
+                <div class="bg-dark text-white p-3 text-center fw-bold">Status Pendaftaran</div>
+                <div class="p-4">
+                    <div class="d-flex justify-content-between mb-2"><small class="fw-bold">Kuota Terisi</small><small class="text-muted">80%</small></div>
+                    <div class="progress mb-4" style="height: 10px;"><div class="progress-bar bg-danger" style="width: 80%"></div></div>
+                    <button class="btn btn-primary w-100 fw-bold mb-2">DAFTAR SEKARANG</button>
+                    <a href="index.html">
+                    <button class="btn btn-light w-100 text-muted btn-sm"><i class="bi bi-arrow-left"></i> Kembali</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card overflow-hidden">
+                <img src="https://blog-media.lifepal.co.id/app/uploads/sites/3/2022/07/25172902/bengkel-mobil-bintaro.jpg" class="card-img-top" alt="Alumni Otomotif">
+                <div class="p-4">
+                    <p class="fst-italic text-secondary small">"Keterampilan praktik yang saya dapatkan langsung bisa diterapkan di dunia kerja."</p>
+                    <h6 class="fw-bold mb-0">- Andi, Senior Mechanic</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="text-center"><div class="container"><p class="mb-0 small">© 2026 SMK DIGITAL. Seluruh Hak Cipta Dilindungi.</p></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
